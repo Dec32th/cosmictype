@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="javascriptfiles" href="planetRandom.js">
     <title>CosmicType</title>
 </head>
 <body>
@@ -18,19 +19,46 @@
         <!-- 사용자가 로그인도 안한 초기 페이지 구상. 
         로그인 여부에 따라서 초기 페이지의 sign in항목은 따로 분류를 해두는 것이 필요 -->
         <div class="navbar__menu">
-            <li><a href="">공지사항</a></li>
+            <li><a href="Notice.html">공지사항</a></li>
             <li><a href="">QnA</a></li>
             <li><a href="">튜토리얼</a></li>
-
         </div>
     
         <div class="navbar__login">
             <!-- 클릭 시 로그인 화면으로 들어갈 수 있도록 하기. -->
-            <a href="">sign in</a>
+            <a href="Login_window.html">sign in</a>
             <!-- if문등 로그인 시 아래 코드로 바뀌어 실행되도록하기 -->
             <!--로그인 시 아래 코드로 바뀌어서 실행되어야함. 아래는 user icon
             <i class="fa-regular fa-circle-user"></i>-->
         </div>
+        <!-- 영상 따라서 만들다가 여기는 넣다가 말았는데 왜 넣는지 이해 안가서 주석처리함. -->
+        <!--<a href="" class="navbar__toogleBth">
+            <i class = "fas fa-bars"></i>
+        </a>-->
     </nav>
+
+    <!-- 여기까지가 반응형 html 메뉴바. 여기서부터는 인덱스 페이지. 행성랜덤을 구현해야함-->
+    
+    <div class="planet">
+        <img src = "index_background.jpg" alt = "background">
+    </div>
+    <!-- 여기서부터는 footer. 하단에 고정했다! 스크롤 길이에 상관없이 하단에 고정! -->
+    
+    <footer id="footer">
+        <div class="container">
+            <div class="footer">
+                <ul>
+                    <li><a href="Support.html">고객센터</a></li>
+                    <li><a href="">개인정보취급방침</a></li>
+                    <li><a href="">도움말</a></li><br><br>
+                </ul>
+                <div class = "Copyrights">
+                    Copyright 2023
+                    <a href="https://github.com/Dec32th/cosmictype"><strong>Team CosmicType.</strong></a>&nbsp;
+                    All rights reserved.
+                </div>
+            </div> 
+        </div>
+    </footer>
 </body>
 </html>

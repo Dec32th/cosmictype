@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.Myprofilebox
+{
+    width: 1000px;
+    height: 900px;
+    border: 1px solid black;
+    padding :20px;
+    background-color : white;
+    
+}
+
+.MyProfileMBTI{
+    height:900px;
+    border-left : 1px solid black;
+    height : 800px;
+    
+}
+li{
+    list-style: none;
+}
+
+.MyProfileMBTI>img
+{
+    position: relative;
+    height: 60px;
+    width: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
